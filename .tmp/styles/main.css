@@ -3024,7 +3024,7 @@ fieldset[disabled] .btn-default.active {
   background-color: #333333;
 }
 .btn-primary {
-  color: #cccccc;
+  color: #ffffff;
   background-color: #337ab7;
   border-color: #2e6da4;
 }
@@ -3034,7 +3034,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-  color: #cccccc;
+  color: #ffffff;
   background-color: #286090;
   border-color: #204d74;
 }
@@ -3066,10 +3066,10 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-primary .badge {
   color: #337ab7;
-  background-color: #cccccc;
+  background-color: #ffffff;
 }
 .btn-success {
-  color: #cccccc;
+  color: #ffffff;
   background-color: #5cb85c;
   border-color: #4cae4c;
 }
@@ -3079,7 +3079,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-success:active,
 .btn-success.active,
 .open > .dropdown-toggle.btn-success {
-  color: #cccccc;
+  color: #ffffff;
   background-color: #449d44;
   border-color: #398439;
 }
@@ -3111,7 +3111,7 @@ fieldset[disabled] .btn-success.active {
 }
 .btn-success .badge {
   color: #5cb85c;
-  background-color: #cccccc;
+  background-color: #ffffff;
 }
 .btn-info {
   color: #ffffff;
@@ -6456,4 +6456,29 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+.sprite {
+  background-image: url(spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+.sprite-facebook {
+  width: 100px;
+  height: 100px;
+  background-position: -5px -5px;
+}
+.sprite-gplus {
+  width: 100px;
+  height: 100px;
+  background-position: -115px -5px;
+}
+.sprite-skype {
+  width: 100px;
+  height: 100px;
+  background-position: -5px -115px;
+}
+.sprite-twitter {
+  width: 100px;
+  height: 100px;
+  background-position: -115px -115px;
 }

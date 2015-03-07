@@ -1,0 +1,29 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-facebook {
+    width: 100px;
+    height: 100px;
+    background-position: -5px -5px;
+}
+
+.sprite-gplus {
+    width: 100px;
+    height: 100px;
+    background-position: -115px -5px;
+}
+
+.sprite-skype {
+    width: 100px;
+    height: 100px;
+    background-position: -5px -115px;
+}
+
+.sprite-twitter {
+    width: 100px;
+    height: 100px;
+    background-position: -115px -115px;
+}
