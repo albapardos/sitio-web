@@ -15,7 +15,8 @@
 
 ( function( window ) {
 
-'use strict';
+
+"use strict";
 
 // class helper functions from bonzo https://github.com/ded/bonzo
 

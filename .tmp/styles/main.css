@@ -1,3 +1,11 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,800|Lora:400italic|Playfair+Display:700);
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'codropsicons';
+  src: url('../fonts/codropsicons/codropsicons.eot');
+  src: url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'), url('../fonts/codropsicons/codropsicons.woff') format('woff'), url('../fonts/codropsicons/codropsicons.ttf') format('truetype'), url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -6457,28 +6465,34 @@ button.close {
     display: none !important;
   }
 }
-.sprite {
-  background-image: url(spritesheet.png);
+#sprite {
+  background-image: url(imagenes/sprites.png);
   background-repeat: no-repeat;
   display: block;
 }
-.sprite-facebook {
+#sprite-facebook {
   width: 100px;
   height: 100px;
   background-position: -5px -5px;
 }
-.sprite-gplus {
+#sprite-gplus {
   width: 100px;
   height: 100px;
   background-position: -115px -5px;
 }
-.sprite-skype {
+#sprite-skype {
   width: 100px;
   height: 100px;
   background-position: -5px -115px;
 }
-.sprite-twitter {
+#sprite-twitter {
   width: 100px;
   height: 100px;
   background-position: -115px -115px;
+}
+video {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  width: 100%;
 }

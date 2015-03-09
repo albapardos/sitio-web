@@ -13,12 +13,12 @@ gulp.task('styles', function () {
     .pipe(gulp.dest('.tmp/styles'));
 });
 
-gulp.task('jshint', function () {
-  return gulp.src('app/scripts/**/*.js')
-    .pipe($.jshint())
-    .pipe($.jshint.reporter('jshint-stylish'))
-    .pipe($.jshint.reporter('fail'));
-});
+//  gulp.task('jshint', function () {
+//  return gulp.src('app/scripts/**/*.js')
+//      .pipe($.jshint())
+//      .pipe($.jshint.reporter('jshint-stylish'))
+//      .pipe($.jshint.reporter('fail'));
+//  });
 
 gulp.task('html', ['styles'], function () {
   var assets = $.useref.assets({searchPath: '{.tmp,app}'});
@@ -34,7 +34,7 @@ gulp.task('html', ['styles'], function () {
 });
 
 gulp.task('images', function () {
-  return gulp.src('app/images/**/*')
+  return gulp.src('app/imagenes/**/*')
     .pipe($.cache($.imagemin({
       progressive: true,
       interlaced: true
@@ -113,7 +113,11 @@ gulp.task('watch', ['connect'], function () {
   gulp.watch('bower.json', ['wiredep']);
 });
 
-gulp.task('build', ['jshint', 'html', 'images', 'fonts', 'extras'], function () {
+//gulp.task('build', ['jshint', 'html', 'images', 'fonts', 'extras'], function () {
+//  return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
+//});
+
+gulp.task('build', ['html', 'images', 'fonts', 'extras'], function () {
   return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
 });
 

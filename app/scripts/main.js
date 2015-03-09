@@ -1,5 +1,5 @@
 (function() {
-
+"use strict";
 				// detect if IE : from http://stackoverflow.com/a/16657946		
 				var ie = (function(){
 					var undef,rv = -1; // Return value assumes failure.
@@ -209,3 +209,7 @@ if ( typeof define === 'function' && define.amd ) {
 }
 
 })( window );
+
+
+
+

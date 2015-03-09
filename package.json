@@ -16,7 +16,7 @@
     "gulp-flatten": "^0.0.4",
     "gulp-if": "^1.2.1",
     "gulp-imagemin": "^1.2.1",
-    "gulp-jshint": "^1.5.3",
+    "gulp-jshint": "^1.9.2",
     "gulp-less": "^3.0.0",
     "gulp-livereload": "^2.0.0",
     "gulp-load-plugins": "^0.7.1",
