@@ -6496,3 +6496,15 @@ video {
   padding-top: 5%;
   width: 100%;
 }
+img {
+  height: auto;
+  max-width: 100%;
+  margin: 15px 15px;
+}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.item {
+  width: 25%;
+}
