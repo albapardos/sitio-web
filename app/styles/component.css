@@ -53,7 +53,7 @@ html, body, .container, .container1, .header {
 }
 
 .title p {
-	color: #900118;
+	color: #C60221;
 	padding: 0 0 0.6em;
 	font-weight: 300;
 	font-size: 0.85em;
@@ -254,7 +254,7 @@ button.trigger span::before {
 
 .intro-effect-fadeout.modify .header h1,
 .intro-effect-fadeout .header p {
-	color: #900118;
+	color: #C60221;
 }
 
 .intro-effect-fadeout .header p {
